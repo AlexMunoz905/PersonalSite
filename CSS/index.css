@@ -4,10 +4,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    text-align: center;
 }
 
 li {
     float: left;
+    text-align: center;
 }
 
 li a {
@@ -19,13 +21,5 @@ li a {
 }
 
 .active {
-    background-color: #ff0006;
-}
-
-.techbag {
-    background-color: #19ff00;
-}
-
-.twitter {
-    background-color: #0a00ff;
+    background-color: #008ea7;
 }
