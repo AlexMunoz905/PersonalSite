@@ -1,18 +1,26 @@
-ul {
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#barUL {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
-li {
+#barLI {
     float: left;
     text-align: center;
 }
 
-li a {
+#barLI a{
     display: block;
     color: white;
     text-align: center;
@@ -22,4 +30,22 @@ li a {
 
 .active {
     background-color: #008ea7;
+}
+
+#aboutme{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #008ea7;
+}
+
+#techbehind {
+    text-align: center;
+}
+
+.techbehindinfo {
+    display:inline-block;
+    text-align:left;
 }
