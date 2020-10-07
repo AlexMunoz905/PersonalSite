@@ -2,7 +2,7 @@
 
 body {
     background-color: #2A2A2E !important;
-    color: white;
+   /**  color: white;**/
     font-family: 'Raleway', sans-serif;
     padding-top: 10%;
 }
@@ -22,8 +22,31 @@ body {
 
 h2 {
     font-weight: 900;
+    color: white;
 }
 
 .list {
     font-weight: 300;
+    color: #7CE1E3;
 }
+
+a:link {
+  text-decoration: none;
+  color: #B10100;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#B10100;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #B10100;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #B10100;
+}
+
