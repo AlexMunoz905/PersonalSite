@@ -27,26 +27,26 @@ h2 {
 
 .list {
     font-weight: 300;
-    color: #7CE1E3;
+    color: #9BFEFF;
 }
 
 a:link {
   text-decoration: none;
-  color: #B10100;
+  color: #009294;
 }
 
 a:visited {
   text-decoration: none;
-  color:#B10100;
+  color:#009294;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #B10100;
+  color: #009294;
 }
 
 a:active {
   text-decoration: underline;
-  color: #B10100;
+  color: #009294;
 }
 
